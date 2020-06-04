@@ -231,12 +231,18 @@ img {
 /* Button */
 button {
   font-family: inherit;
+
   border-radius: 4px;
+
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   color: var(--primary-text-color);
   background-color: var(---secondary-background-color);
+}
+
+button:last-child {
+  margin-right: 0px;
 }
 
 button:hover,
@@ -694,6 +700,7 @@ button:focus {
 
 .card {
   margin-right: 8px;
+  border-radius: 4px;
 
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
