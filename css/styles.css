@@ -85,6 +85,8 @@ img {
 
 .logo:focus {
   color: var(--accent-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Site-nav */
@@ -113,6 +115,9 @@ img {
 .site-nav .link:hover,
 .site-nav .link:focus,
 .site-nav .link:active {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
   color: var(--accent-color);
 }
 
@@ -151,6 +156,9 @@ img {
 
 .contact .link:hover,
 .contact .link:focus {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
   color: var(--accent-color);
 }
 
@@ -216,6 +224,9 @@ button {
 
 button:hover,
 button:focus {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
   color: var(--background-color);
   background-color: var(--accent-color);
 }
@@ -236,6 +247,9 @@ button:focus {
 }
 
 .button:focus {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
   color: var(--accent-color);
 }
 
@@ -403,6 +417,9 @@ button:focus {
 
 .social-links:hover,
 .social-links:focus {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
   --color1: var(--accent-color);
   --color2: var(--background-color);
 }
@@ -456,6 +473,9 @@ button:focus {
 }
 .client-block:hover,
 .client-block:focus {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
   fill: var(--accent-color);
   border: 1px solid var(--accent-color);
 }
@@ -491,6 +511,9 @@ button:focus {
   color: var(--background-color);
 }
 .footer .logo:focus {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
   color: var(--accent-color);
 }
 
@@ -546,12 +569,16 @@ button:focus {
 .footer-links {
   width: 44px;
   height: 44px;
+
   --color1: rgba(255, 255, 255, 0.1);
   --color2: var(--background-color);
 }
 
 .footer-links:hover,
 .footer-links:focus {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
   --color1: var(--accent-color);
   --color2: var(--background-color);
 }
@@ -643,6 +670,9 @@ button:focus {
 
 .card:hover,
 .card:focus {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
     0px 1px 1px rgba(0, 0, 0, 0.12);
   border-radius: 5px;
@@ -710,4 +740,7 @@ button:focus {
 
 .description:hover {
   opacity: 1;
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
