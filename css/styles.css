@@ -427,23 +427,24 @@ button:focus {
 
 .social-block {
   display: block;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  padding: 12px;
+  fill: #afb1b8;
 }
 
 .social-links {
-  width: 44px;
-  height: 44px;
+  width: 20px;
+  height: 20px;
 
-  transition: var(--color1) 2500ms cubic-bezier(0.4, 0, 0.2, 1),
-    var(--color2) 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  --color1: var(--background-color);
-  --color2: var(--icon-color);
+  fill: var(--icon-color);
+  transition: fill 2500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-links:hover,
-.social-links:focus {
-  --color1: var(--accent-color);
-  --color2: var(--background-color);
+.social-block :hover .social-links,
+.social-block :focus {
+  fill: var(--background-color);
 }
 
 .section-heading {
